@@ -25,7 +25,6 @@ serverRouter.post('/api/fetch', (req, res) => {
   })
   scrape(url, process.env.FBTOKEN, function (response) {
     if (response.error) {
-      console.log('hey?', response.error)
       res.write(JSON.stringify({
         error: true,
         msg: response.error.error_user_msg
