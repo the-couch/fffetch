@@ -124,6 +124,7 @@ module.exports = (
         </div>
         <div class='content'>
           <p>Created by <a href="https://thecouch.nyc">The Couch</a></p>
+          <p><a href="https://github.com/the-couch/fffetch">Contribute</a></p>
         </div>
       </div>
       <script>
