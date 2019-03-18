@@ -1,0 +1,8 @@
+settings.json
+.git
+.meteor
+mup.json
+now.json
+config.js
+node_modules/*
+now-secrets.json
