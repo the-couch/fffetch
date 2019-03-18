@@ -1,23 +1,7 @@
-# Beer Me - fun beer app
+# fffetch
 
-## Up and running:
-
-Create a `now.json` file in the root directory with the following information:
-
-```
-{
-  "env": {
-    "TWILIO_ACCOUNT_SID": "",
-    "TWILIO_AUTH_TOKEN": "",
-    "TWILIO_NUMBER": ""
-  }
-}
-```
-
-I used twilio, you can create an account online and purchase a number (it's only a dollar for a local number).
+send an array of links to facebook open graph to ensure that links are properly fetched. I recommend doing it more than once and viewing the log responses to make sure everything is set up right.
 
 ```
 npm run dev
 ```
-
-Assumes you're using now for deployment should be easy enough to deploy else where
