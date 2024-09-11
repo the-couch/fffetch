@@ -17,7 +17,7 @@
   "author": "iamkevingreen",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.3",
     "connect": "^3.6.6",
     "facebook-scrape": "^1.0.0",
     "form-serialize": "^0.7.2",
